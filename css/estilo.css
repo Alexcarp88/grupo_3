@@ -2,6 +2,12 @@
     margin:0;
     padding:0;
 }
+
+.logo{
+    width: 200px;
+}
+
+
 /* https://animate.style/ es la pagina para hacer animaciones
 https://fontawesome.com/ es para elegir fuentes 
 https://fonts.google.com se copia el link y se agrega en el head del css
