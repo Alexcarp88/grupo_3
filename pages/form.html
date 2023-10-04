@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
-    
-    <style>
-        form input{
-            display: block;
-        }
-        header {
-            background-color: lightpink;
-            height: 200 px;
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="../css\estilo.css">
 </head>
+
+
 <body>
-    <header>Alfa consultorios</header>
-    <form  action="Link" method="get" 
-    <label>
-        Nombre
-        <input type="text"
-    </label>
-    <label>
-        Apellildo
-        <input type="text"
-    </label>
-    <label>
-        Correo
-        <input type="email"
-    </label>
-    <label>
-        Password
-        <input type="password"
-    </label>
-    <p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
-    <label>
-       <input type="submit" value="Registrar"
-    <l/abel>
-</form>
+    <header class="grid-header">
+        <a href="..\index.html"><img class="logo" src="..\img\logo.png"></a>
+
+        <a href="#">Inicio Sesión</a>
+
+
+    </header>
+
+
+    <form action="Link" method="get">
+        <label>
+            Nombre
+            <input type="text">
+        </label>
+        <label>
+            Apellildo
+            <input type="text">
+        </label>
+        <label>
+            Correo
+            <input type="email">
+        </label>
+        <label>
+            Password
+            <input type="password">
+        </label>
+
+        <input type="checkbox">
+        <p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
+        <label>
+            <input type="submit" value="Registrar">
+        </label>
+    </form>
 </body>
+
 </html>
-
-

@@ -3,7 +3,7 @@
     padding: 0;
  }
 
-
+/* PAGINA INICIO/INDEX */
 
 .grid-container{
     display: grid;
@@ -62,4 +62,11 @@ nav ul li a:hover {
 
 .logo{
     width: 150px;
+}
+
+ /* PAGINA REGISTRARSE */
+
+ 
+form input{
+    display: block;
 }
