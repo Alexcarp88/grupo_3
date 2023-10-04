@@ -23,7 +23,6 @@
 }
 
 
-
 .grid-nav{
     grid-area: nav;
     height: 50px;
@@ -44,18 +43,27 @@ nav ul li{
 nav ul li a:hover {
     font-weight: bold;
 }
+
 .grid-footer{
     grid-area: footer;
     background-color: #FFE5E5;
   
 }
 
-.grid-section main{
+.grid-section-main{
     grid-area: main;
      
 }
 
-.grid-section aside{
+.grid-section-main img {
+    width: 100%;
+     
+}
+
+
+
+
+.grid-section-aside{
     grid-area: aside;
 }
 
