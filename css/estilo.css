@@ -1,36 +1,65 @@
-.container{
-    display:grid;
-    /* grid-template: filas / columnas */
-    grid-template: 100px 1fr 100px / 400px 1fr;
-    grid-template-areas: "header header"/*2 cols p header*/
-                        "left contenido"
-                        "footer footer";/*2 cols p footer*/
-    grid-gap: 10px;
-    height: 100vh;     
-    font-family:'roboto',sans-serif,verdana,arial;               
-}
-.header{
-    grid-area: header;
-}
-.left{
-    grid-area: left;
-}
-.contenido{
-    grid-area: contenido;
-}
-.footer{
-    grid-area: footer;
-}
-.item{
-    background-color: black;
-    padding: 10px;
-    color: white;
-    border-radius: 10px;
+* {
+    margin: 0;
+    padding: 0;
+ }
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 100px 1fr 1/2fr;
+    grid-template-areas: 
+      "header header header"
+      "nav nav nav"
+      "aside main main"
+      "footer footer footer";
 }
 
-/* https://animate.style/ es la pagina para hacer animaciones
-https://fontawesome.com/ es para elegir fuentes 
-https://fonts.google.com se copia el link y se agrega en el head del css
-link href="https://fonts.googleapis.com/....
-y para usarla se copia el link de abajo y se pega en el font-family
-o se descarga la fuente y se deja el archivo en la carpeta fonts dentro de la carpeta css*/
+.grid-header{
+    grid-area: header;
+    background-color: #FFE5E5;
+  
+}
+
+
+
+.grid-nav{
+    grid-area: nav;
+    height: 50px;
+}
+
+
+nav ul { 
+        text-align: center;
+        padding: 20px;
+} 
+
+nav ul li{
+    display: inline;
+    padding-left: 20px;
+    
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+}
+.grid-footer{
+    grid-area: footer;
+    background-color: #FFE5E5;
+  
+}
+
+.grid-section main{
+    grid-area: main;
+     
+}
+
+.grid-section aside{
+    grid-area: aside;
+}
+
+
+.logo{
+    width: 150px;
+}
