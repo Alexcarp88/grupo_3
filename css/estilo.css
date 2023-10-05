@@ -2,13 +2,16 @@
     margin: 0;
     padding: 0;
     font-family: "roboto";
-    
+color: rgba(38, 8, 145, 0.804);
  }
 
  @font-face {
     font-family: "roboto";
     src: url(../css/fonts/Roboto-Regular.ttf);
+   
  }
+
+
 
 
 /* PAGINA INICIO/INDEX */
@@ -22,6 +25,7 @@
       "nav nav nav"
       "aside main main"
       "footer footer footer";
+   
    
 }
 
@@ -46,6 +50,7 @@ div.inicioregistro a {
     padding: 10px;
     align-items: center;
     text-decoration: none;
+    
 }
 
 div.inicioregistro a:hover{
@@ -87,7 +92,7 @@ nav ul li a:hover {
 .grid-footer{
     grid-area: footer;
     background-color: #FFE5E5;
-    margin-top: 20PX;
+   
   
 }
 
