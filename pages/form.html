@@ -5,15 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
-    <link rel="stylesheet" href="../css\estilo.css">
-    <style>
+    <link rel="stylesheet" href="..\css\estilo.css">
+    <link rel="stylesheet" href="..\css\estilosform.css">
 
-form input{
-    display: block;
-}
-
-
-    </style>
 </head>
 
 
@@ -27,31 +21,27 @@ form input{
         </div>
     </header>
 
-
-
+    
+  <section class="registro">
     <form action="Link" method="get">
-        <label>
-            Nombre
-            <input type="text">
-        </label>
-        <label>
-            Apellildo
-            <input type="text">
-        </label>
-        <label>
-            Correo
-            <input type="email">
-        </label>
-        <label>
-            Password
-            <input type="password">
-        </label>
 
-        <p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
-        <input type="checkbox">
-        <label>
-            <input type="submit" value="Registrar">
-        </label>
+        <label>Nombre</label>
+        <input type="text">
+
+        <label>Apellildo</label>
+        <input type="text">
+
+        <label>E-mail </label>
+        <input type="email">
+
+        <label> Password </label>
+        <input type="password">
+        
+        <p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a> <input type="checkbox" class="checkbox"></p>
+    
+        <input class="submit" type="submit" value="Registrar">
+    </section>
+
     </form>
 </body>
 

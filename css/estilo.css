@@ -151,7 +151,7 @@ nav ul li a:hover {
  
 }
 
- .grid-section-consultas button{
+ .grid-section-consultas input{
     border-radius: 10px;
     background-color: rgb(39, 39, 149);
     color: WHITE;
@@ -291,7 +291,7 @@ nav ul li a:hover {
         text-align:center;
     }
     
-     .grid-section-consultas button{
+     .grid-section-consultas input{
         margin-left: 2%;
         margin-right: 3%;
         width: 70px;
