@@ -310,10 +310,12 @@ nav ul li a:hover {
     }
     
      .grid-section-consultas input{
+        display: flex;
         margin-left: 2%;
         margin-right: 3%;
         width: 70px;
         height: 50px;
+        font-size: 10px;
     }  
 
 
@@ -351,6 +353,10 @@ nav ul li a:hover {
         text-align: center;
     }
 
+
+    .whats{
+        width: 32px;
+    }
 
 
 }
