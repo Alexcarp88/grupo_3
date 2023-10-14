@@ -1,7 +1,7 @@
 
 .form{
-    display: flex;
-    justify-content: center;
+     display: flex;
+    justify-content: center; 
 }
 
 form{
@@ -59,3 +59,34 @@ input.submit{
     text-decoration: none;
     font-weight: bold;
 }
+
+@media(min-width:300px) and (max-width:576px){
+
+    input{
+   
+        width: 230px;
+        height: 20px;
+    }
+
+    label{
+       font-size: 0.8em;
+    }
+    .crearcuenta{
+        font-size: 0.8em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
