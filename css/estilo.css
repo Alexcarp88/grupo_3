@@ -58,6 +58,8 @@ grid-column-gap: 10px;
         padding-left: 20px;
     }
 
+
+
 /* NAVBAR */
 
 .grid-nav{
@@ -181,6 +183,14 @@ nav ul li a:hover {
     margin-left: 20%;
 }
 
+.servicios h4{
+    text-decoration: underline;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+   
+
+}
 .servicios ul{
     display: flex;
     flex-direction: column;
@@ -237,6 +247,14 @@ nav ul li a:hover {
     margin-top: 20px;
     margin-bottom: 5px;
     justify-content: center;
+}
+
+.whats{
+
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+  
 }
 
 @media(min-width:300px) and (max-width:576px){
