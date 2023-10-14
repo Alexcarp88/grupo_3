@@ -30,6 +30,7 @@ input.submit{
     margin-top: 20px;
     display: flex;
     justify-content: center;
+   
 
 }
 
@@ -60,6 +61,9 @@ input.submit{
     font-weight: bold;
 }
 
+.grid-footer{
+    margin-top: 20%;
+}
 @media(min-width:300px) and (max-width:576px){
 
     input{
