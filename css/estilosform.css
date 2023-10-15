@@ -67,13 +67,24 @@ input.checkbox{
     }
 
 
-   p{
+    p{
         font-size: 0.8em;
     }
+
     input.checkbox{
        
         width:12px;
         height: 12px;
     
     }
+    form{
+        align-items: center;
+        }
+
+    .acuerdo{
+        font-size: 0.8em;
+    
+        }
+        
+        
 }
