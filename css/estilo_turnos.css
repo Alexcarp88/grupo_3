@@ -1,0 +1,28 @@
+.turnos {
+    display: flex;
+    flex-direction: column;
+    background-color: lavenderblush;
+    font-size: large;
+    height: 300px;
+}
+main .medico {
+    text-decoration: none;
+}
+main ul {
+    display: block;
+    margin-left: 10px;
+} 
+main p {
+    margin: 10px;
+}
+form input {
+    margin: 10px;
+}
+form input .button {
+    border: none;
+    background-color: ghostwhite;
+    padding: 5px;
+}
+form label {
+       display: block;
+}

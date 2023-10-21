@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Turnos</title>
-    <link rel="stylesheet" href="..\css\estilo.css">
-    <link rel="stylesheet" href="..\css\estilo_turnos.css">
+    <title>Dra. Larralde</title>
+    <link rel="stylesheet" href="../css/estilo_turnos.css">
+    <link rel="stylesheet" href="../css\estilo.css">
     <link rel="icon" href="..\img\logo.png">
 </head>
-<body>  
+
+<body>
     <header class="grid-header">
             
         <a href="..\index.html"><img class="logo" src="..\img\logo.png"></a>
@@ -27,21 +27,39 @@
         </ul>
     </nav>
 
-    <a href="..\index.html">Volver</a>
-    <main class="turnos">
-        <p>Seleccione el profesional con quien desea reservar turno, sino elija por
-          <a href="Listado _especialidades">Especialidad</a>
-        </p>
-        <ul>
-          <li> <a class="medico" href="form_Larralde.html">Dra. Jesica Larralde  </a></li>
-          <li><a class="medico" href="form_Leiva.html">Dra. Angeles Leiva </a> </li>
-          <li><a class="medico" href="form_Lopez.html">Dr. Diego Lopez </a></li>
-          <li><a class="medico" href="form_Perez.html">Dr. Juan F Perez </a></li>
-          <li><a class="medico" href="form_Toro.html">Dr. Pedro Toro </a></li>
-          <li><a class="medico" href="form_Vera.html">Dra. Laura Vera </a></li>
-        </ul>
-    </main>  
-    
+<a href="..\index.html">Volver</a>
+
+    <main>
+        <p> Fechas y horarios Dra. Larralde</p>
+        <form action="link" method="get">
+            <label>
+                <input type="radio" name="Larralde" value="10/11 15 horas"> 
+                10/11 15 horas
+            </label>
+            <label>
+                <input type="radio" name="Larralde" value="10/11 16 horas"> 
+                10/11 16 horas
+            </label>
+            <label>
+                <input type="radio" name="Larralde" value="17/11 15 horas">
+                17/11 15 horas
+            </label>
+            <label>
+                <input type="radio" name="Larralde" value="17/11 16 horas">
+                17/11 16 horas
+            </label>
+            <label>
+                <input type="radio" name="Larralde" value="24/11 15 horas">
+                24/11 15 horas
+            </label>
+            <label>
+                <input type="radio" name="Larralde" value="24/11 16 horas">
+                24/11 16 horas
+            </label>
+                <input class="button" type="submit" value="Reservar turno">
+        </form>  
+    </main>
+
     <footer class="grid-footer">
         <div class="servicios">
             <ul>
@@ -71,5 +89,6 @@
         </div>
     </footer>
     <a href="https://web.whatsapp.com/" target="_blank"><img src="..\img\whatsapp.png" class="whats"></a>
+    
 </body>
-</html>
+</html>   
