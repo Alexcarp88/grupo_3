@@ -18,11 +18,19 @@ main p {
 form input {
     margin: 10px;
 }
-form input .button {
+.button {
     border: none;
     background-color: ghostwhite;
     padding: 5px;
+    font-size: large;
 }
 form label {
        display: block;
+       margin: 20px;
+}
+.medico {
+        width: 200px;
+        height: 30px;
+        margin: 20px;
+        font-size: large;
 }

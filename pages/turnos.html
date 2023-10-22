@@ -29,17 +29,15 @@
 
     <a href="..\index.html">Volver</a>
     <main class="turnos">
-        <p>Seleccione el profesional con quien desea reservar turno, sino elija por
-          <a href="Listado _especialidades">Especialidad</a>
-        </p>
-        <ul>
-          <li> <a class="medico" href="form_Larralde.html">Dra. Jesica Larralde  </a></li>
-          <li><a class="medico" href="form_Leiva.html">Dra. Angeles Leiva </a> </li>
-          <li><a class="medico" href="form_Lopez.html">Dr. Diego Lopez </a></li>
-          <li><a class="medico" href="form_Perez.html">Dr. Juan F Perez </a></li>
-          <li><a class="medico" href="form_Toro.html">Dr. Pedro Toro </a></li>
-          <li><a class="medico" href="form_Vera.html">Dra. Laura Vera </a></li>
-        </ul>
+        <form>
+            <label>Seleccione el profesional</label>
+            <select class="medico" name="medico">
+              <option value="Jesica Larralde">Jesica Larralde</option>
+              <option value="Angeles Leiva">Angeles Leiva<a href="form_Leiva.html"></a></option>
+              <option value="Juan F Perez">Juan F Perez<a href="form_Perez.html"></a></option>
+            </select>
+            <input class="button" type="submit" value="Buscar turnos">
+        </form> 
     </main>  
     
     <footer class="grid-footer">
