@@ -1,0 +1,15 @@
+main h1 {
+    font-size: medium;
+}
+header {
+    background-color: mistyrose;
+}
+nav {
+    background-color:  rgba(222, 225, 229, 0.495);
+}
+main {
+    padding-bottom: 150px;
+}
+footer {
+    background-color: mistyrose;
+}
