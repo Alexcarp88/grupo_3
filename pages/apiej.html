@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestros pacientes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Larralde</title>
+    <link rel="stylesheet" href="../css\estilo.css">
+    <link rel="stylesheet" href="../css\estiloapi.css">
+    <link rel="icon" href="..\img\logo.png">
+
+   
+
+</head>
+<body>
+    <header class="grid-header">
+            
+        <a href="..\index.html"><img class="logo" src="..\img\logo.png"></a>
+        
+        <div class="inicioregistro">
+        <a  href="..\pages\iniciosesion.html">Inicio Sesión</a>
+        <a  href="..\pages\form.html">Registrarse</a>
+    </div>
+    </header>
+    <nav class="grid-nav">
+        <ul>
+            <li><a href="..\pages\quienes_somos.html">Quienes Somos</a></li>
+            <li><a href="..\pages\turnos.html">Turnos</a></li>
+            <li><a href="..\pages\profesionales.html">Buscar Profesional</a></li>
+        </ul>
+    </nav>
+
+<a href="..\index.html">Volver</a>
+    <h1>Nuestros pacientes</h1>
+    <main>
+    <article>   
+        Acompanamos a nuestros pacientes, brindandoles la mejor atencion 
+        medica, ellos valoran nuestro servicio y nos expresan su agradecimiento,
+        siendo esto lo que nos impulsa a seguir mejorando.  
+    </article>
+    <article id="Usuario">
+        <img id="Foto" src="" alt="Foto perfil">
+        <p>"Gracias por el servicio que prestan"</p>
+        <span id="Name">N</span>
+        <span id="LastName">A</span>
+    </article>
+    <article id="Usuario">
+        <img id="Foto" src="../img/fotofamilia.jpeg " width="160px"  alt="Foto fotofamilia ">
+        <p>"Estamos tranquilos en manos de sus profesionales"</p>
+        <span>Familia Rio</span>
+    </article> 
+
+   </main>
+    <script>
+        async function pacientes(){
+        const response=await fetch("https://randomuser.me/api");
+        const user=await response.json();
+        document.querySelector("#Usuario #Foto").src=user.results[0].picture.thumbnail;
+        document.querySelector("#Usuario #Name").textContent=user.results[0].name.first;
+        document.querySelector("#Usuario #LastName").textContent=user.results[0].name.last;
+        }
+
+        pacientes() 
+    </script>
+   <footer class="grid-footer">
+    <div class="servicios">
+        <ul>
+            <li><a href="">Contacto</a></li>
+            <li><a href="">Preguntas Frecuentes</a></li>
+            <li><a href="">Empleos</a></li>
+            <li><a href="">Términos y condiciones</a></li>
+        </ul>
+
+    </div>
+    <div class="ubicacion">
+        <h4>Donde Estamos</h4>
+        <p>Rodriguez Peña 237 - C1042 -</p>
+        <p>CABA</p>
+        <a href="https://maps.app.goo.gl/RxnZKGkTiL3h5HVw6" target="_blank">Ver Mapa</a>
+    </div>
+    <div class="redes">
+        <h4>Redes Sociales</h4>
+        <span>
+            <a href=""><img src="..\img/linkedin.png"></a>
+            <a href=""><img src="..\img\instagram.png"></a>
+            <a href=""><img src="..\img\facebook.png"></a>
+        </span>
+    </div>
+    <div class="copy">
+        <p>Copyright Alfaconsultorios - 2023. Todos los derechos reservados. </p>
+    </div>
+</footer>
+<a href="https://web.whatsapp.com/" target="_blank"><img src="..\img\whatsapp.png" class="whats"></a>
+ 
+ 
+</body>
+</html>
