@@ -5,16 +5,7 @@
     grid-row-gap: 10px;
     grid-column-gap: 10px;
     margin-bottom: 20px;
-
-.preguntas {
-        display: grid;
-        grid-template-columns: 40% 60%;
-        grid-template-rows: auto auto auto;
-        grid-row-gap: 10px;
-        grid-column-gap: 10px;
-        margin-bottom: 20px;
-
-    }
+}
 
     .profesional1 {
         grid-row: 1;
@@ -174,6 +165,4 @@
             height: 350px;
 
         }
-
-
     }
