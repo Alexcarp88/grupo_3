@@ -1,7 +1,9 @@
-main {
+.reserva {
     display: flex;
     flex-direction: column;
+    margin-bottom: 60px;
 }
+
 h1 {
     font-size: large;
     padding: 10px;
@@ -18,7 +20,7 @@ form input {
     border: none;
     font-size: large;
 }
-p {
+.dia {
     margin: 15px;
 }
 
