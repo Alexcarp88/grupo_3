@@ -55,8 +55,11 @@
 .logo{
      width: 150px;
      padding-left: 20px;
+     
 }
-
+.logo:hover{
+    transform: rotate(30deg) translateX(30px);
+}
 
 
 /* NAVBAR */

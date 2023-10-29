@@ -53,7 +53,13 @@ input.checkbox{
 .grid-footer{
     margin-top: 13%;
 }
-
+.titulo{
+    padding: 30px;
+        display: flex;
+        justify-content: center;
+        text-decoration: underline;
+    
+    }
 @media(min-width:300px) and (max-width:576px){
 
     input{
@@ -80,7 +86,7 @@ input.checkbox{
     form{
         align-items: center;
         }
-
+       
     .acuerdo{
         font-size: 0.8em;
     
