@@ -1,18 +1,29 @@
 main{
     display: flex;
-    flex-direction: column;
-    
-
-}
-main article {
-    padding: 20px;
-    font-size: medium;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding: 10px;
+    justify-content: center;
 }
 h1 {
+    font-size: larger;
+    padding-bottom: 20px;
+}
+.item {
+    padding: 50px;
+    width: 500px;
     font-size: large;
-    padding: 20px;
 }
-article img{
-    border-radius: 15px;
-    height: 80px;
+article {
+    padding-bottom: 20px;
+    text-align: center;
 }
+.item img {
+    border-radius: 10px;
+    height: 100px;
+    width: 130px;
+}
+
+
+
+
