@@ -53,6 +53,8 @@ input.checkbox{
 .grid-footer{
     margin-top: 13%;
 }
+
+
 .titulo{
     padding: 30px;
         display: flex;
@@ -63,6 +65,13 @@ input.checkbox{
 @media(min-width:300px) and (max-width:576px){
 
     input{
+   
+        width: 280px;
+        height: 20px;
+    }
+
+    
+    select{
    
         width: 280px;
         height: 20px;
