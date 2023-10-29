@@ -4,7 +4,7 @@
 }
 
 form{
-    margin-top: 2%;
+    
     display: inline-flex;
     flex-direction: column;
     }
@@ -56,12 +56,15 @@ input.checkbox{
 
 
 .titulo{
-    padding: 30px;
+       padding: 20px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         text-decoration: underline;
-    
+        text-transform: uppercase;
     }
+
+
 @media(min-width:300px) and (max-width:576px){
 
     input{
@@ -100,6 +103,11 @@ input.checkbox{
         font-size: 0.8em;
     
         }
+
+        .titulo{
+       font-size: 1.1em;
+       text-align: center;
+         }
         
         
 }
