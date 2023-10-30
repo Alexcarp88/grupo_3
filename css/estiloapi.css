@@ -1,29 +1,75 @@
-main{
-    display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
+.mainapi{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+    grid-template-areas: 
+    "item1 item2";
     padding: 10px;
-    justify-content: center;
 }
-h1 {
-    font-size: larger;
-    padding-bottom: 20px;
+
+h2 {
+font-size: larger;
+padding-bottom: 20px;
+text-decoration: underline;
 }
-.item {
-    padding: 50px;
-    width: 500px;
-    font-size: large;
+.item1 {
+display: flex;
+flex-direction: column;
+grid-area: item1;
+padding: 50px;
+font-size: large;
 }
+
+.item2 {
+grid-area: item2;
+padding: 50px;
+font-size: large;
+display: flex;
+flex-direction: column;   
+
+}
+
 article {
-    padding-bottom: 20px;
-    text-align: center;
+padding-bottom: 20px;
+text-align: center;
 }
-.item img {
-    border-radius: 10px;
-    height: 100px;
-    width: 130px;
+.item2 img {
+border-radius: 10px;
+height: 100px;
+width: 130px;
+}
+
+.parraf{
+margin-bottom: 8px;
+}
+
+ul li p{
+text-align: justify;
 }
 
 
+@media(min-width:300px) and (max-width:576px){
 
+.mainapi{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1/2fr ;
+    grid-template-areas: 
+    "item1"
+    "item2";
+}
+
+.item1{
+grid-area: item1;
+padding: 5%;
+margin-bottom: 8%;
+}
+
+.item2{
+grid-area: item2;
+padding: 0%;
+padding: 5%;
+}
+
+}
 

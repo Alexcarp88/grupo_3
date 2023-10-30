@@ -65,10 +65,14 @@ input.submit{
 .grid-footer{
     margin-top: 20%;
 }
+
 @media(min-width:300px) and (max-width:576px){
 
+    .form{
+        margin-bottom: 220px;  
+   }
+
     input{
-   
         width: 280px;
         height: 20px;
     }
@@ -76,6 +80,7 @@ input.submit{
     label{
        font-size: 0.8em;
     }
+
     .crearcuenta{
         font-size: 0.8em;
     }
